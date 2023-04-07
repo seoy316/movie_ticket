@@ -1,6 +1,5 @@
 package moviesystem.start;
 
-
 import com.querydsl.core.QueryResults;
 import com.querydsl.core.Tuple;
 import com.querydsl.core.types.Predicate;
@@ -387,6 +386,8 @@ public class MovieMain {
 
             // 10. 유저 삭제
 //            UserDeleteTicketDelete(75);
+
+            // 영길 하이
 
             em.flush();
             em.clear();
